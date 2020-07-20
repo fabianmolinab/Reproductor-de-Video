@@ -8,7 +8,7 @@ tiempo.setAttribute('max', video.duration)
 btnPlay.addEventListener('click',function(){
     if (icono.className === 'fa fa-play'){
         video.play()
-        var intervalo = setInterval(barraTiempo, 1)
+        let intervalo = setInterval(barraTiempo, 1)
     } else {
         video.pause()
     }
